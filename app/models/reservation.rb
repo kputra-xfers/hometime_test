@@ -1,7 +1,7 @@
 class Reservation < ApplicationRecord
   belongs_to :guest
 
-  validates :code, uniqueness: true
+  validates :code, uniqueness: true, presence: true
   validate :start_date_is_today_or_after
   validate :end_date_is_after_start_date
 
