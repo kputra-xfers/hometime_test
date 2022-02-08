@@ -7,8 +7,8 @@ describe V1::Webhooks::ReservationsController, type: :request do
     it "gives correct response body when success" do
       params = {
         reservation_code: "YYY12345678",
-        start_date: "2021-04-14",
-        end_date: "2021-04-18",
+        start_date: "2031-04-14",
+        end_date: "2031-04-18",
         nights: 4,
         guests: 4,
         adults: 2,

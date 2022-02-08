@@ -4,8 +4,8 @@ describe Payload1Interactor do
   let!(:params) do
     {
       reservation_code: "YYY12345678",
-      start_date: "2021-04-14",
-      end_date: "2021-04-18",
+      start_date: "2031-04-14",
+      end_date: "2031-04-18",
       nights: 4,
       guests: 4,
       adults: 2,
@@ -72,8 +72,8 @@ describe Payload1Interactor do
 
           guest.reservations.create(
             code: "YYY12345678",
-            start_date: "2021-04-14",
-            end_date: "2021-04-18",
+            start_date: "2031-04-14",
+            end_date: "2031-04-18",
             nights: 5,
             guests: 5,
             adults: 2,

@@ -4,8 +4,8 @@ describe Payload2Interactor do
   let!(:params) do
     {
       code: "XXX12345678",
-      start_date: "2021-03-12",
-      end_date: "2021-03-16",
+      start_date: "2031-03-12",
+      end_date: "2031-03-16",
       expected_payout_amount: "3800.00",
       guest_details: {
         localized_description: "4 guests",
@@ -76,8 +76,8 @@ describe Payload2Interactor do
 
           guest.reservations.create(
             code: "XXX12345678",
-            start_date: "2021-03-12",
-            end_date: "2021-03-16",
+            start_date: "2031-03-12",
+            end_date: "2031-03-16",
             nights: 5,
             guests: 5,
             adults: 2,
