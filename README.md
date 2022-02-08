@@ -11,7 +11,7 @@ Temporary webhook service, to get requests from various sources using a single e
 ```
 /app
   /controllers
-	  /v1
+    /v1
       /webhooks
         reservations_controller.rb
     application_controller.rb
@@ -29,7 +29,7 @@ Temporary webhook service, to get requests from various sources using a single e
   schema.rb
 /spec
   /controllers
-	  /v1
+    /v1
       /webhooks
         reservations_controller_spec.rb
   /interactors
